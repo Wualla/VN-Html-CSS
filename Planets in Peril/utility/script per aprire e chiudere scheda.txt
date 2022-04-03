@@ -1,0 +1,8 @@
+<script language="javascript" type="text/javascript">
+		function closeWindow() {
+		window.open('','_parent','');
+		window.close();
+		}
+		</script>
+
+		<a href="peril.html#start" onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=yes,width=680'); javascript:closeWindow();"> 

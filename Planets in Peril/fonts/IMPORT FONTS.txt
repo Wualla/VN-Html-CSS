@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "PSM-8x13-Bold";
+	src: url(./fonts/PSM-8x13-Bold.ttf)
+}
+
+@font-face {
+	font-family: "PSM-8x13-Classic";
+	src: url(./fonts/PSM-8x13-Classic.ttf)
+}
+
+@font-face {
+	font-family: "PSM-8x13-Italic";
+	src: url(./fonts/PSM-8x13-Italic.ttf)
+}
+
+@font-face {
+	font-family: "PSM-8x13-Light";
+	src: url(./fonts/PSM-8x13-Light.ttf)
+}
+
+@font-face {
+	font-family: "PSM-8x8-Bold";
+	src: url(./fonts/PSM-8x8-Bold.ttf)
+}
+
+@font-face {
+	font-family: "PSM-8x8-Classic";
+	src: url(./fonts/PSM-8x8-Classic.ttf)
+}
+
+@font-face {
+	font-family: "PSM-8x8-Italic";
+	src: url(./fonts/PSM-8x8-Italic.ttf)
+}
+
+@font-face {
+	font-family: "PSM-8x8-Light";
+	src: url(./fonts/PSM-8x8-Light.ttf)
+}
