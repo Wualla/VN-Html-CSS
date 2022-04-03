@@ -1,4 +1,5 @@
 @import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+
 @font-face {
 	font-family: "PSM-8x13-Bold";
 	src: url(./fonts/PSM-8x13-Bold.ttf)
@@ -44,7 +45,7 @@
 }
 
 html {
-	font-size: 100%;
+	font-size: 100% !important;
 	border-image-width: 0;
 }
 
@@ -87,6 +88,8 @@ html {
 	margin-top: 1rem;
 	vertical-align: top;
 }
+
+.cover {width: 40rem; object-fit: scale-down;}
 
 [id^="chat"] {
 	display: var(--d-ib);
