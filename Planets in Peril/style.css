@@ -275,8 +275,8 @@ html {
 	position: fixed;
 	top: .5rem;
 	left: -200rem;
-	width: 42rem;
-	height: 32rem;
+	width: 40rem;
+	height: 30rem;
 	overflow-y: auto;
 	z-index: 0;
 	background-color: var(--clr-bianco-100);
