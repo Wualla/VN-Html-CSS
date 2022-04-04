@@ -44,8 +44,8 @@
 	src: url(./fonts/pf_condensed.ttf)
 }
 
-html {
-	font-size: 100% !important;
+html, body {
+	font-size: 16px !important;
 	border-image-width: 0;
 }
 
