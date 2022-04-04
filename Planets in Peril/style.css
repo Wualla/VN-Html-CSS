@@ -68,6 +68,8 @@ html {
 	--clr-bianco-100: #ffffff;	/* BIANCO 0% */
 	--shadow: 0 .25rem 0 0 rgba(0, 0, 0, 0.5);
 	--d-ib: inline-block;
+	--container-w: 40.5rem;
+	--container-h: 30rem;
 }
 
 [id^="container"] {
@@ -75,8 +77,8 @@ html {
 	position: fixed;
 	top: .5rem;
 	left: calc(50vw - 20rem);
-	width: 40.5rem;
-	height: 30rem;
+	width: var(--container-w);
+	height: var(--container-h);
 	flex-direction: column;
 	outline: solid 0.125rem var(--clr-nero-100);
 	outline-offset: -0.125rem;
@@ -89,12 +91,21 @@ html {
 	vertical-align: top;
 }
 
-.cover {height: 100%; max-height:29rem; width:auto; object-fit: scale-down;}
+.cover {
+	max-height: calc(var(--container-h) -1rem);
+	max-width: calc(var(--container-w) -1rem);
+}
+
+.chat-cover {
+	overflow: hidden;
+	text-align: center;
+	margin: .5rem auto;
+}
 
 [id^="chat"] {
 	display: var(--d-ib);
-	width: 40.5rem;
-	height: 30rem;
+	width: var(--container-w);
+	height: var(--container-h);
 	overflow-y: auto;
 	overflow-x: hidden;
 	font-family: var(--font-pf), sans-serif;
@@ -278,8 +289,8 @@ html {
 	position: fixed;
 	top: .5rem;
 	left: -200rem;
-	width: 40rem;
-	height: 30rem;
+	width: var(--container-w);
+	height: var(--container-h);
 	overflow-y: auto;
 	z-index: 0;
 	background-color: var(--clr-bianco-100);
